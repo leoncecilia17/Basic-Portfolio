@@ -1,9 +1,42 @@
+body {
+    background-color: purple;
+}
+
+
 .container {
     margin: 0 auto;
     width: 1024px;
+    padding: 0;
+    background: green;
+}
+
+a {
+    float: right;
+    padding-right: 10px;
 }
 
 img {
     width: 250px;
     height: 250px;
+    float: left;
+    margin: 0px, 40px;
 }  
+
+.paragraph1 {
+    float: left;
+    margin: 0px, 40px;
+    background-color: #aa4a52;
+    width: 500px;
+}
+
+.clearfix {
+    clear:both;
+}
+
+#footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
