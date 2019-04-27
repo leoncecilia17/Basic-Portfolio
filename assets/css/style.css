@@ -1,7 +1,12 @@
 body {
-    background-image: url ("pinkdust.png");
+    background-image: url("../images/pinkdust.png");
+    margin: 0;
 }
 
+nav {
+    background-color: white;
+    width: 100%;
+}
 
 h1 {
     background-color: #4aaaa5;
@@ -11,6 +16,7 @@ h1 {
     color: #ffffff;
     text-align: center;
     padding: 10px;
+    margin: 0;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -22,7 +28,9 @@ h2 {
 .container {
     margin: 0 auto;
     width: 960px;
-    padding: 0px
+    padding: 0px;
+    background-color: red;
+
 }
 
 a {
@@ -33,7 +41,8 @@ a {
     height: 75px;
     line-height: 75px;
     text-align: center;
-    background-color: blue;
+    background-color: wheat;
+    color: #777777;
 }
 
 img {
@@ -52,6 +61,7 @@ img {
     line-height: 200%;
     color: #777777;
     border-top: #dddddd;
+    padding-left: 20px;
 }
 
 .clearfix {
