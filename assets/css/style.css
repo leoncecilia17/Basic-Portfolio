@@ -1,42 +1,69 @@
 body {
-    background-color: purple;
+    background-image: url ("pinkdust.png");
 }
 
 
+h1 {
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 75px;
+    line-height: 75px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    text-align: left;
+}
+
 .container {
     margin: 0 auto;
-    width: 1024px;
-    padding: 0;
-    background: green;
+    width: 960px;
+    padding: 0px
 }
 
 a {
     float: right;
     padding-right: 10px;
+    color: black;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    background-color: blue;
 }
 
 img {
     width: 250px;
     height: 250px;
     float: left;
-    margin: 0px, 40px;
+    margin-left: auto;
+    margin-right: auto;
 }  
 
-.paragraph1 {
+.paragraphs {
     float: left;
-    margin: 0px, 40px;
-    background-color: #aa4a52;
-    width: 500px;
+    margin: 0px;
+    background-color: #ffffff;
+    width: 650px;
+    line-height: 200%;
+    color: #777777;
+    border-top: #dddddd;
 }
 
 .clearfix {
     clear:both;
 }
 
-#footer {
-    background-color: black;
+footer {
+    background-color: #666666;
     position: fixed;
     bottom: 0px;
     width: 100%;
     text-align: center;
+    font-family: 'Ariel', 'Helvetica Neue','Helvetica','sans-serif';
+    border-top: 8px solid #4aaaa5;
 }
